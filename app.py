@@ -231,7 +231,6 @@ def show_model():
     for model in models:
         model_name = model.__class__.__name__
         st.subheader(f"Modeling dengan {model_name}")
-        st.write(model)
 
         model.fit(X_train,y_train)
         
