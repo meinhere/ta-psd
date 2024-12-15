@@ -289,7 +289,7 @@ def show_testing():
         1: "Work/study from home",
     }
 
-    st.title("Prediksi Lokasi Anatomi TBC")
+    st.title("Prediksi Dampak Psikologi Pandemi COVID-19")
 
     gender = st.selectbox("Gender", ["Male", "Female", "Prefer not to say"])
     time_bp = st.number_input("Time Before Pandemic", min_value=1, max_value=10)
